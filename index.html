@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>GWA Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">
+                GWA Calculator
+            </h1>
+        </div>
+
+        <div class="input__container" id="input-container">
+            <div class="card">
+                <h3 class="subjectNumber">1</h3>
+                <input type="text" placeholder="Enter unit" class="unit__input">
+                <input type="text" placeholder="Enter final grade" class="grade__input">
+            </div>
+        </div>
+        
+        <div class="bottom">
+            <h3 class="gwa__h3" id="gwa-output">GWA: </h3>
+            <div class="button__container">
+                <button class="compute__button" onclick="solve()">Compute</button>
+                <button class="add__button" onclick="addSub()">Add Subject</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -6,6 +6,7 @@ A simple web-based Grade Weighted Average calculator implemented using HTML, CSS
 
 - Calculate Grade Weighted Average (GWA) based on input grades and corresponding weights.
 - Responsive design for various devices.
+- Added a remove button for each sub
 
 ## Screenshots
 

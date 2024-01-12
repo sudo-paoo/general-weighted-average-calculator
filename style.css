@@ -74,7 +74,6 @@ input[type="text"]:focus {
     display: flex;
     align-content: center;
     column-gap: 2rem;
-
 }
 
 
@@ -105,8 +104,7 @@ button {
     width: auto;
 }
 
-button:hover,
-button:focus {
+button:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     color: rgba(0, 0, 0, 0.65);
 }
@@ -121,6 +119,55 @@ button:active {
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   color: rgba(0, 0, 0, 0.65);
   transform: translateY(0);
+}
+
+.delete__button {
+    color: #ff5050;
+    border: none;
+    font-size: 1.625rem;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+.delete__button:hover {
+    color: #ff0000;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 200px;
+        margin: 3.5rem auto;
+        padding: 1.25rem;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .gwa__h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 300px
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    
+    .gwa__h3 {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 768px) {
